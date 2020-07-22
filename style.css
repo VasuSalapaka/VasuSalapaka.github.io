@@ -1,0 +1,164 @@
+@charset "utf-8";
+.container {
+    height: 1000px;
+    width: 1000px;
+	float:left
+}
+.header {
+    float: left;
+    height: 10%;
+    width: 100%;
+    background-color: #DF9798;
+    color: #A8282A;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+}
+.menubar {
+    height: 5%;
+    width: 100%;
+    background-color: #0E1488;
+}
+.menubar {
+    float: left;
+    height: 5%;
+    width: 1000px;
+    color: #2D0EDB;
+}
+
+.container {
+    width: auto;
+    height: auto;
+}
+.Title {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bold;
+    color: #8A1B1C;
+}
+.hdrtitle {
+    color: #8A1B1C;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 40pt;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: auto;
+}
+p
+{
+  margin:0;
+  padding:0;
+}
+div
+{
+    padding: 0;
+    top: 100px;
+  }
+.subhdrtitle {
+    color: black;
+    font-family: Calibri;
+    font-weight: bold;
+	font-size:20pt;
+    text-align: left;
+    margin-bottom: 0;
+	line-height: 6%;
+}
+.tabtitle {
+    color: #8A1B1C;
+    font-family: Calibri;
+    font-weight: bold;
+	font-size:18pt;
+    text-align: left;
+    margin-bottom: 0;
+	line-height: 6%;
+}
+.containertwo {
+    height: 350px;
+    width: 40%;
+    float: left;
+	margin-right: 0px;
+}
+.containerthree {
+    height: 350px;
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.GenTextBig{
+    font-family: Calibri;
+    font-size: 20pt;
+    color: black;
+	margin:0.0in;
+    width: auto;
+    height: auto;
+}
+.GenTextSmall{
+    font-family: Calibri;
+    font-size: 16pt;
+    color: black;
+    margin-left: 0px;
+}
+.subheading {
+    color: #8A1B1C;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 0px;
+    margin-top: 0px;
+    line-height: 20px;
+    width: 100%;
+    margin-right: 0px;
+}
+.maintext {
+    color: black;
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: 14pt;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: auto;
+}
+.spaceres {
+    height: 20px;
+    width: 100%;
+}
+.containerfour {
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-right: 0px;
+}
+.containerfive {
+    padding: 0px;
+    float: left;
+    height: auto;
+    width: 58%;
+}
+.newstabs {
+    width: 0%;
+
+}
+.l2head {
+    color: #8A1B1C;
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: 16pt;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: auto;
+}
+
+.lisquare {
+list-style-type: square;
+	color:#8A1B1C;
+	text-align:justify;
+}
+ .nav-tabs .active a {
+  background-color: #FBDFD9 !important;	
+}
+
+
