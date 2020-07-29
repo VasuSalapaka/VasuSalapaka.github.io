@@ -56,7 +56,7 @@ p
 div
 {
     padding: 0;
-    top: 100px;
+    top: auto;
   }
 .subhdrtitle {
     color: black;
@@ -160,5 +160,28 @@ list-style-type: square;
  .nav-tabs .active a {
   background-color: #FBDFD9 !important;	
 }
+.carousel-item img{
+ width: auto;
+ height: 300px;
+ max-height: 300px;
+ margin: auto; 
+ display: block;
+ }
 
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+.card{margin: 60px}
+
+.leftbox { 
+          float:left;  
+          width:25%; 
+          height:100px; 
+         } 
+.rightbox{float:left;  
+                width:55%; 
+                height:100px; 
+            } 
 
