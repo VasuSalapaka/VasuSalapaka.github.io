@@ -44,9 +44,10 @@
 	    <li class="nav-item"> <a class="nav-link" href="#paneThree1" role="tab" id="powersystab1" data-toggle="tab" aria-controls="powersys"><img src="Images/powersystemsx.jpg"   height="150px" alt="" ><div><span class="tabtitle">  Power Systems and Control </span></div></a> </li>
         <!-- Dropdown -->
         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <img src="Images/Others.png"   height="145px" alt=""><div><span class="tabtitle">  Other </span> </div>  </a>
-          <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownthermaltab1" data-toggle="tab" aria-controls="dropdownThermal"><span class="tabtitle">Thermal Systems</span></a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownformingtab1" data-toggle="tab" aria-controls="dropdownForming"><span class="tabtitle">Forming and Control</span></a> </div>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownthermaltab1" data-toggle="tab" aria-controls="dropdownThermal"><span class="tabtitle">Thermal Systems</span></a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownformingtab1" data-toggle="tab" aria-controls="dropdownForming"><span class="tabtitle">Fouling and Control</span></a> </div>
         </li>
       </ul>
+
       <!-- Content Panel -->
 	<!-- CONTENT FOR OPTIMIZATION -->
       <div id="clothingnavcontent1" class="tab-content">
@@ -116,12 +117,6 @@ for investigation and nano-manipulation. In particular my group has made signifi
 		    </div>
 		  </div>
         </div>
-		  		
-			
-			
-			
-			
-		 
 		  
 		  <!-- CONTENT FOR POWER SYSTEMS -->
 		  <div role="tabpanel" class="tab-pane fade" id="paneThree1" aria-labelledby="powersystab1">
@@ -129,13 +124,24 @@ for investigation and nano-manipulation. In particular my group has made signifi
 		  <br>&nbsp;
 			Here we aim a comprehensive framework for developing and implementing smart-grid technologies capable of harnessing much more power from renewable (though) uncertain power sources while guaranteeing grid stability and satisfying economic power sharing constraints.  Our research aims at design, implementation, and analysis of a power-electronics based grid that enables distributed generation, prioritization, and integration of heterogeneous power sources; while incorporating objectives related to economics and reliability.  We have applied modern systems techniques for developing control of power-grid/ power electronics technologies, and has played a central role in designing, developing, and testing new systems.  </p>
         </div>
+
         <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownthermaltab1">
-          <p>Dropdown content#1</p>
+          <p align="justify" class="GenTextSmall"> 
+		  <br>&nbsp;<b> Heat Equation: A control theory perspective: </b>The aim of this project is to develop a control theory approach viewing heat equation as a Linear Time Invariant system discretised by finite element methods and basis function approach. The underlying idea is to design a closed loop method which will outperform traditional feed-forward estimation techniques such as 3ω-method. We could successfully estimate thermal conductivity of nonuniform rod assuming full state observations. We are working towards exploring robust optimal control approaches to make one material behave as another reference material. This is aimed to bring down costs in thermal research since a suitable material could be matched in temperature profiles to any arbitrary non uniform material with known thermal conductivity
+</p>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownformingtab1">
-          <p>Dropdown content#2</p>
+<p align="justify" class="GenTextSmall"> 
+		  <br>&nbsp;<b>Temperature Control: </b>Designing robust and accurate temperature controllers for heat exchangers is very challenging primar- ily because of complexities associated with the synthesis of dynamics of industrial heat exchangers. We propose a couple of data-driven temperature control solutions for heat-exchangers based on n-step advance deep neural networks and a hy- brid control approach based on steady state neural network with a proportional controller.<br/> <br/>
+
+<b>Fouling Prediction: </b>The complexities involved in fouling prediction in heat-exchangers have deterred traditional model based approaches and other empirical methods. Many existing data-driven prediction approaches are typically application-driven or heat-exchanger specific. Hence, these algorithms are limited either by the scale of data they can handle or by the geometrical and flow configurations of the heat-exchanger for which they were conceived. Here, we develop a generalized and scalable statistical model for accurate prediction of fouling resistance using commonly measured parameters of industrial heat-exchangers. This prediction model is based on deep learning which is a family of computational data-driven methods that allows a scalable algorithmic architecture to learn non-linear functional relationships between a set of target and predictor variables from large number of training samples.</p>
         </div>
       </div>
 </div>
+
+
+	<!-- CONTENT FOR OTHER -->
+
+
 </body>
 </html>
